@@ -1,0 +1,218 @@
+/* GENERICS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 13px;
+}
+
+body {
+  min-height: 100vh;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* UTILITIES */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.text-white {
+  color: white;
+}
+
+.active {
+  color: #0282f9;
+  border-bottom: 4px solid #0282f9;
+}
+
+.fs-25 {
+  font-size: 25px;
+}
+
+.d-flex {
+  height: 120px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+#blue-line {
+  height: 30px;
+  width: 100%;
+  background-color: #0282f9;
+}
+
+#nav-bar {
+  height: 120px;
+  width: 100%;
+  background-color: white;
+}
+#nav-bar .content {
+  display: flex;
+  align-items: center;
+  height: 120px;
+  width: 1200px;
+}
+#nav-bar .content img {
+  height: 120px;
+  padding: 20px;
+}
+#nav-bar .content .header-menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+#nav-bar .content .header-menu li {
+  height: 120px;
+  line-height: 120px;
+  font-weight: bold;
+}
+#nav-bar .content .header-menu li a {
+  padding: 10px;
+  padding-bottom: 50px;
+}
+
+#top-jumbotron {
+  height: 400px;
+  width: 100%;
+  background-image: url("../images/jumbotron.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+#content {
+  height: 600px;
+  width: 100%;
+  background-color: #1c1c1c;
+}
+#content .currentSeries {
+  height: 40px;
+  width: 180px;
+  font-size: 17px;
+  background-color: #0282f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: -3%;
+  left: -38%;
+}
+#content .cdComics {
+  height: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#content .cdComics .cdComics-list {
+  height: 450px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+#content .cdComics .cdComics-list .card {
+  display: flex;
+  flex-direction: column;
+  height: 180px;
+  width: 150px;
+  margin: 15px;
+}
+#content .cdComics .cdComics-list .card figure {
+  height: 85%;
+  width: 100%;
+}
+#content .cdComics .cdComics-list .card figure img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+#content .cdComics .cdComics-list .card .nameDc {
+  display: flex;
+  justify-content: flex-start;
+  height: 15%;
+  width: 100%;
+}
+#content .cdComics .cdComics-list .card .nameDc span {
+  font-size: 11px;
+  padding-top: 10px;
+}
+#content .cdComics .button {
+  background-color: #0282f9;
+  padding: 10px 50px;
+  margin-top: 50px;
+}
+
+#nav-bar-menu {
+  height: 150px;
+  width: 100%;
+  background-color: #0282f9;
+  position: relative;
+}
+#nav-bar-menu .row {
+  height: 150px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#nav-bar-menu .row .col {
+  height: 100%;
+  width: 20%;
+}
+#nav-bar-menu .row .col .row-pe {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#nav-bar-menu .row .col .row-pe .col-4 {
+  height: 100%;
+  width: 33.3333333333%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#nav-bar-menu .row .col .row-pe .col-4 img {
+  max-height: 50px;
+  max-width: 50px;
+  padding: 0;
+  margin: 0;
+}
+#nav-bar-menu .row .col .row-pe .col-8 {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+#nav-bar-menu .row .col .row-pe .col-8 span {
+  color: white;
+}

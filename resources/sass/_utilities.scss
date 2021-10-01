@@ -1,0 +1,34 @@
+/* UTILITIES */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.text-white {
+    color: white;
+}
+
+.active {
+    color: $Principal-Color;
+    border-bottom: 4px solid $Principal-Color;
+}
+
+.fs-25 {
+    font-size: 25px;
+}
+
+.d-flex {
+    height: 120px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
