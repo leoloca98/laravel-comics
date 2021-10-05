@@ -1,9 +1,11 @@
+@charset "UTF-8";
 /* GENERICS */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-size: 13px;
+  font-family: sans-serif;
 }
 
 body {
@@ -36,6 +38,50 @@ img {
 .active {
   color: #0282f9;
   border-bottom: 4px solid #0282f9;
+}
+
+hr {
+  border-top: 1px solid rgba(0, 0, 0, 0.137);
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.text-right {
+  display: flex;
+  justify-content: end;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.p-center {
+  display: flex;
+  justify-content: center;
+}
+
+.p-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.p-around {
+  display: flex;
+  justify-content: space-around;
+}
+
+.my-lh {
+  line-height: 22px;
+}
+
+.fs-15 {
+  font-size: 15px;
+}
+
+.fs-20 {
+  font-size: 20px;
 }
 
 .fs-25 {
@@ -171,9 +217,14 @@ img {
 }
 
 #details {
-  height: 800px;
+  height: 760px;
   width: 100%;
-  background-color: white;
+}
+#details .text-details-color {
+  color: #003f5e;
+}
+#details .text-azure {
+  color: #36b2e1;
 }
 #details .line-blue {
   height: 80px;
@@ -192,36 +243,95 @@ img {
   position: absolute;
   top: 0%;
   right: 54%;
-  background-color: #3d75a3;
+  background-color: #00a9d9;
 }
 #details .line-blue .currentComic .bot-text {
   position: absolute;
   text-align: center;
   top: 94%;
   right: 0%;
-  background-color: #3d75a3;
+  background-color: #00a9d9;
   width: 100%;
 }
 #details .row {
   display: flex;
-  height: 500px;
-  width: 850px;
-  margin-top: 50px;
+  width: 1000px;
+  height: 280px;
+  margin: 50px 0;
 }
 #details .row .col-8 {
-  width: 70%;
+  height: 100%;
+  width: 65%;
+  margin-right: 100px;
 }
-#details .row .col-8 h1 {
-  font-size: 25px;
-}
-#details .row .col-8 .status {
-  height: 30px;
+#details .row .col-8 .status-row {
+  display: flex;
+  align-items: center;
+  height: 40px;
   width: 100%;
   background-color: #55ba59;
-  margin-top: 25px;
+  margin: 25px 0;
+}
+#details .row .col-8 .status-row .status-col-70 {
+  display: flex;
+  align-items: center;
+  border-right: 1px solid black;
+  padding: 0 18px;
+  height: 100%;
+  width: 70%;
+}
+#details .row .col-8 .status-row .status-col-30 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 30%;
 }
 #details .row .col-4 {
-  width: 30%;
+  height: 100%;
+  width: 35%;
+}
+#details .row .col-4 .adv {
+  height: 100%;
+  width: 100%;
+  background-image: url("../images/pubblicità.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+}
+#details #comic-info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  height: 300px;
+  width: 100%;
+  background-color: #f6f6f6;
+  border-top: 1px solid rgba(128, 128, 128, 0.281);
+}
+#details #comic-info .info-row {
+  display: flex;
+  height: 100%;
+  width: 1000px;
+}
+#details #comic-info .info-row .col-55 {
+  height: 100%;
+  width: 55%;
+  margin-right: 50px;
+}
+#details #comic-info .info-row .col-55 .talent {
+  margin: 25px 0;
+}
+#details #comic-info .info-row .col-45 {
+  height: 100%;
+  width: 45%;
+}
+#details #comic-info .info-row .col-45 .specs {
+  margin: 10px 0;
+}
+#details #comic-info .info-row .title-col {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 30px 0;
 }
 
 #nav-bar-menu {
