@@ -32,22 +32,58 @@
             <div class="col-55">
                 <h2 class="fs-20 bold title-col text-details-color">Talent</h2>
                 <hr>
-                <p class="talent text-details-color">Art by: <span
-                        class="text-azure">{{ $comic['artists'][0] }}</span></p>
+                <div class="talent-row">
+                    <div class="det-col-5">
+                        <p class="margin-title text-details-color">Art by:</p>
+                    </div>
+                    <div class="det-col-7">
+                        @foreach ($comic['artists'] as $artist)
+                            <span class="text-azure ">{{ $artist }}, </span>
+                        @endforeach
+                    </div>
+                </div>
                 <hr>
-                <p class="talent text-details-color">Written by: <span
-                        class="text-azure">{{ $comic['writers'][0] }}</span></p>
+                <div class="talent-row">
+                    <div class="det-col-5">
+                        <p class="margin-title text-details-color">Written by:</p>
+                    </div>
+                    <div class="det-col-7">
+                        @foreach ($comic['writers'] as $writer)
+                            <span class="text-azure ">{{ $writer }}, </span>
+                        @endforeach
+                    </div>
+                </div>
                 <hr>
             </div>
             <div class="col-45">
                 <h2 class="fs-20 bold title-col text-details-color">Specs</h2>
                 <hr>
-                <p class="specs text-details-color">Series: <span
-                        class="text-azure uppercase">{{ $comic['series'] }}</span></p>
+                <div class="specs-row">
+                    <div class="det-col-5">
+                        <p class="specs text-details-color">Series:</p>
+                    </div>
+                    <div class="det-col-7">
+                        <span class="text-azure uppercase text-indent">{{ $comic['series'] }}</span>
+                    </div>
+                </div>
                 <hr>
-                <p class="specs text-details-color">U.S. Price: {{ $comic['price'] }}</p>
+                <div class="specs-row">
+                    <div class="det-col-5">
+                        <p class="specs text-details-color">U.S. Price:</p>
+                    </div>
+                    <div class="det-col-7">
+                        <span class="text-indent">{{ $comic['price'] }}</span>
+                    </div>
+                </div>
                 <hr>
-                <p class="specs text-details-color">On Sale Date: {{ $comic['sale_date'] }}</p>
+                <div class="specs-row">
+                    <div class="det-col-5">
+                        <p class="specs text-details-color">On Sale Date:</p>
+                    </div>
+                    <div class="det-col-7">
+                        <span class="text-indent">{{ $comic['sale_date'] }}</span>
+                    </div>
+                </div>
                 <hr>
             </div>
         </div>

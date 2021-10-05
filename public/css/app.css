@@ -318,20 +318,52 @@ hr {
   width: 55%;
   margin-right: 50px;
 }
-#details #comic-info .info-row .col-55 .talent {
+#details #comic-info .info-row .col-55 .talent-row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#details #comic-info .info-row .col-55 .talent-row .det-col-7 {
+  height: 100%;
+  width: 70%;
+}
+#details #comic-info .info-row .col-55 .talent-row .det-col-5 {
+  height: 100%;
+  width: 30%;
+}
+#details #comic-info .info-row .col-55 .talent-row .det-col-5 .margin-title {
   margin: 25px 0;
 }
 #details #comic-info .info-row .col-45 {
   height: 100%;
   width: 45%;
 }
-#details #comic-info .info-row .col-45 .specs {
+#details #comic-info .info-row .col-45 .specs-row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+#details #comic-info .info-row .col-45 .specs-row .det-col-7 {
+  display: flex;
+  justify-content: left;
+  height: 100%;
+  width: 70%;
+}
+#details #comic-info .info-row .col-45 .specs-row .det-col-5 {
+  height: 100%;
+  width: 30%;
+}
+#details #comic-info .info-row .col-45 .specs-row .specs {
   margin: 10px 0;
 }
 #details #comic-info .info-row .title-col {
   font-size: 20px;
   font-weight: bold;
   margin: 30px 0;
+}
+#details #comic-info .info-row .text-indent {
+  text-indent: 50px;
 }
 
 #nav-bar-menu {
