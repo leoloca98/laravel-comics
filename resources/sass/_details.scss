@@ -1,0 +1,61 @@
+#details {
+    height: 800px;
+    width: 100%;
+    background-color: $Details-Color;
+
+    .line-blue {
+        height: 80px;
+        width: 100%;
+        background-color: $Principal-Color;
+
+        .currentComic {
+            border: 2px solid white;
+            height: 291px;
+            width: 192px;
+            position: relative;
+            bottom: 295%;
+            left: 20%;
+
+            .top-text {
+                position: absolute;
+                top: 0%;
+                right: 54%;
+                background-color: rgb(61, 117, 163);
+            }
+            .bot-text {
+                position: absolute;
+                text-align: center;
+                top: 94%;
+                right: 0%;
+                background-color: rgb(61, 117, 163);
+                width: 100%;
+            }
+        }
+    }
+
+    .row {
+        display: flex;
+        height: 500px;
+        width: 850px;
+        margin-top: 50px;
+
+        .col-8 {
+            width: 70%;
+
+            h1 {
+                font-size: 25px;
+            }
+
+            .status {
+                height: 30px;
+                width: 100%;
+                background-color: $Status-Color;
+                margin-top: 25px;
+            }
+        }
+
+        .col-4 {
+            width: 30%;
+        }
+    }
+}

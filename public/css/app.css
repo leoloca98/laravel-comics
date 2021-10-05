@@ -170,6 +170,60 @@ img {
   margin-top: 50px;
 }
 
+#details {
+  height: 800px;
+  width: 100%;
+  background-color: white;
+}
+#details .line-blue {
+  height: 80px;
+  width: 100%;
+  background-color: #0282f9;
+}
+#details .line-blue .currentComic {
+  border: 2px solid white;
+  height: 291px;
+  width: 192px;
+  position: relative;
+  bottom: 295%;
+  left: 20%;
+}
+#details .line-blue .currentComic .top-text {
+  position: absolute;
+  top: 0%;
+  right: 54%;
+  background-color: #3d75a3;
+}
+#details .line-blue .currentComic .bot-text {
+  position: absolute;
+  text-align: center;
+  top: 94%;
+  right: 0%;
+  background-color: #3d75a3;
+  width: 100%;
+}
+#details .row {
+  display: flex;
+  height: 500px;
+  width: 850px;
+  margin-top: 50px;
+}
+#details .row .col-8 {
+  width: 70%;
+}
+#details .row .col-8 h1 {
+  font-size: 25px;
+}
+#details .row .col-8 .status {
+  height: 30px;
+  width: 100%;
+  background-color: #55ba59;
+  margin-top: 25px;
+}
+#details .row .col-4 {
+  width: 30%;
+}
+
 #nav-bar-menu {
   height: 150px;
   width: 100%;

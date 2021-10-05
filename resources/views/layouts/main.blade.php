@@ -10,19 +10,19 @@
 </head>
 
 <body>
-    @include('includes.blue-line');
-    @include('includes.header');
-    @include('includes.top-jumbo');
+    @include('includes.blue-line')
+    @include('includes.header')
+    @include('includes.top-jumbo')
 
-    @yield('content');
+    @yield('content')
 
-    @include('includes.nav-bar-menu');
-    @include('includes.bot-jumbo');
-    @include('includes.footer');
+    @include('includes.nav-bar-menu')
+    @include('includes.bot-jumbo')
+    @include('includes.footer')
 
     <script src="{{ asset('js/app.js') }}"></script>
 
-    @yield('extra-script');
+    @yield('extra-script')
 </body>
 
 </html>
