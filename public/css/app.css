@@ -217,33 +217,33 @@ img {
   color: white;
 }
 
-#jumbotron {
+#bot-jumbotron {
   height: 370px;
   background-image: url("../images/footer-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
-#jumbotron .row {
+#bot-jumbotron .row {
   height: 320px;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-#jumbotron .row .col {
+#bot-jumbotron .row .col {
   height: 100%;
   width: 50%;
   display: flex;
   flex-direction: column;
 }
-#jumbotron .row .col .row-between {
+#bot-jumbotron .row .col .row-between {
   height: 100%;
   width: 70%;
   display: flex;
   align-items: center;
   justify-content: start;
 }
-#jumbotron .row .col .row-between .col-3 {
+#bot-jumbotron .row .col .row-between .col-3 {
   height: 100%;
   width: 33.3333333333%;
   display: flex;
@@ -251,43 +251,43 @@ img {
   padding-top: 50px;
   color: white;
 }
-#jumbotron .row .col .row-between .col-3 .row-column {
+#bot-jumbotron .row .col .row-between .col-3 .row-column {
   height: 100%;
   display: flex;
   flex-direction: column;
 }
-#jumbotron .row .col .row-between .col-3 .row-column .col-8 {
+#bot-jumbotron .row .col .row-between .col-3 .row-column .col-8 {
   width: 100%;
   display: flex;
   flex-direction: column;
   padding-bottom: 30px;
   color: white;
 }
-#jumbotron .row .col .row-between .col-3 .row-column .col-4 {
+#bot-jumbotron .row .col .row-between .col-3 .row-column .col-4 {
   width: 100%;
   display: flex;
   flex-direction: column;
   color: white;
 }
-#jumbotron .row .col .row-between .col-3 h2 {
+#bot-jumbotron .row .col .row-between .col-3 h2 {
   font-size: 18px;
   padding-bottom: 20px;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
-#jumbotron .row .col .row-between .col-3 li {
+#bot-jumbotron .row .col .row-between .col-3 li {
   line-height: 20px;
 }
-#jumbotron .row .col .row-between .col-3 li a {
+#bot-jumbotron .row .col .row-between .col-3 li a {
   color: grey;
 }
-#jumbotron .row .col-logo {
+#bot-jumbotron .row .col-logo {
   height: 100%;
   width: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-#jumbotron .row .col-logo img {
+#bot-jumbotron .row .col-logo img {
   max-height: 550px;
 }
 
